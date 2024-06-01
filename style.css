@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* top and left navbar */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    box-shadow: 0px 0.5px 10px;
+    background-color: #D7E2D9;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.navs{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navs > img{
+    width: 30px;
+    height: 30px;
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 200px;
+    background-color:  #D7E2D9;
+    padding: 5rem 0rem 0rem 0rem;
+    padding-left: 2rem;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar .navb{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
+.navb > img{
+    width: 24px;
+}
+.navb:last-child{
+    padding-top: 3.5rem;
+}
+
+/* main styling */
+
+.A{
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    margin-top: 4.5rem;
+    margin-left: 200px;
+    padding-left: 1rem;
+}
+.chart{
+    margin-top: 5rem;
+}
+.card>img{
+    width: 590px;
+    height: 315px;
+}
+.chart>img{
+    width: 430px;
+    height: 300px;
+}
+
+/* bottom */
+
+.B{
+    display: flex;
+    gap: 2rem;
+    margin-left: 200px;
+    padding-left: 1.5rem;
+}
+
+.Ba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0.1rem;
+}
+
+.Bx{
+    width: 570px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0;
+}
+.B2{
+    display: flex;
+    align-items: center;
+}
+.B2 > img{
+    width: 11px;
+    height: 5px;
+}
+table{
+    width: 100%;
+    padding-left: 1rem;
+}
+table td{
+    padding-bottom: 1rem;
+}
+table td:nth-child(2){
+    padding-right: 5rem;
+}
+
+.Bz{
+    background-color: #132516;
+    width: 430px;
+    height: 300px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+.Bz > button{
+    padding: 0.5rem;
+    border: 1px solid #387042;
+    border-radius:15px;
+    background-color: #387042;
+    width:10rem;
+    color:white;
+}
